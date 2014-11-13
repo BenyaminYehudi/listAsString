@@ -16,3 +16,8 @@ function showListAsString (){
   var newStr = itemArray.join(delimiter);
   document.getElementById("show").innerHTML = newStr;
 }
+
+function delimiterLocalStorage(){
+  var delimiter = document.getElementById("delimiterInput").value;
+  localStorage.setItem(delimiter)
+}
