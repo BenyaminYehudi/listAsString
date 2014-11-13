@@ -7,5 +7,6 @@ function pushItemToArray(){
   
   var li = document.createElement("li");
   li.innerHTML = newItem;
-  document.getElementById("itemList").appendChild(li);
+  var  ul = document.getElementById("itemList");
+  ul.appendChild(li);
 }
