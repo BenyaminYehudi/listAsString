@@ -19,5 +19,5 @@ function showListAsString (){
 
 function delimiterLocalStorage(){
   var delimiter = document.getElementById("delimiterInput").value;
-  localStorage.setItem("delimiter", "delimiter");
+  localStorage.setItem("delimiter", delimiter);
 }
