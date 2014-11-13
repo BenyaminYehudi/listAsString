@@ -10,3 +10,9 @@ function pushItemToArray(){
   var  ul = document.getElementById("itemList");
   ul.appendChild(li);
 }
+
+function showListAsString (){
+  var delimiter = document.getElementById("delimiterInput").value;
+  var newStr = itemArray.join(delimiter);
+  document.getElementById("show").innerHTML = newStr;
+}
